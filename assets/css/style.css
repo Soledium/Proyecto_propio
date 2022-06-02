@@ -3,8 +3,11 @@
     padding: 0;
 }
 
+body {
+    background-color:#fbfbfb ;
+}
 .navbar {
-    background-color:rgb(212, 232, 187);
+    background-color:#BDF2E4;
 }
 
 .texto-navbar{
@@ -12,6 +15,10 @@
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
     text-align: center;
+}
+
+.bg-placeholder {
+    background-color: #fbfbfb;
 }
 
 .navbar a {
@@ -25,26 +32,16 @@
 }
 
 /* Sección inicial */
-#principal {
-    background-image: url("../img/ingredientes-pizza-casera_35641-2533.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-    color: #FFB284;
-}
-
-#principal div {
-    position: absolute;
-    top: 250px;
+.principal {
     left: 0;
     right: 0;
     margin: auto;
     font-family: 'Dancing Script', cursive;
     color: #240F14;
     font-size: 70px;
+    text-align: center;
 }
+
 
 #container1 h1, h4{
     font-family: 'Dancing Script', cursive;
@@ -58,6 +55,16 @@
     font-family: 'Dancing Script', cursive;
 }
 
-.card-color {
-    background-color: aliceblue !important;
+.bg-propio {
+    background-color: #BDF2E4;
+}
+
+/* MEDIA QUERY  */
+@media(max-width:320px) {   
+    .col {
+        text-align: center;
+    }
+    .btn {
+        font-size: 13px;
+    }
 }

@@ -1,140 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="Author: Natalia Escobar">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-                    <!-- FUENTE ÍCONOS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
-    <title>Comida a tu medida</title>
-                    <!-- ESTILO BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-                    <!-- FUENTES -->
-                    <link rel="preconnect" href="https://fonts.googleapis.com">
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author: Natalia Escobar">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FUENTE ÍCONOS -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+        <title>Comida a tu medida</title>
+        <!-- ESTILO BOOTSTRAP -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- FUENTES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-                    <!-- BARRA DE NAVEGACIÓN -->
+    <!-- BARRA DE NAVEGACIÓN -->
 
-    <nav class="navbar">
-        <div class="container-fluid">
-            <img src="assets/img/logo1-removebg-preview.png" alt="" height="100px">
-            <h2 class="texto-navbar">Comida a tu medida</h2>
-            <a class="nav-link" href="#">Tips
-            </a>
-            <a class="nav-link" href="#">Contacto</a>
-        <form class="buscador d-flex" role="search">
-            <input class="form-control me-2 bg-light" type="search" placeholder="Encuentra tu receta" aria-label="Search">
-            <button class="btn btn-outline-dark" type="submit">Buscar</button>
-        </form>
-        </div>
-    </nav>
+<nav class="navbar">
+    <div class="container-fluid">
+        <img src="assets/img/logo1-removebg-preview.png" alt="" height="100px">
+        <h2 class="texto-navbar">Comida a tu medida</h2>
+        <a class="nav-link" href="#">Tips
+        </a>
+        <a class="nav-link" href="#">Contacto</a>
+    <form class="buscador d-flex" role="search">
+        <input class="form-control me-2 bg-placeholder" type="search" placeholder="Encuentra tu receta" aria-label="Search">
+        <button class="btn btn-outline-dark" type="submit">Buscar</button>
+    </form>
+    </div>
+</nav>
 
-                    <!-- SECCIÓN INICIAL -->
-
-    <header id="principal" class="/">
-        <div class="container text-center">
-            <p class="mx-auto">¿Qué preparamos hoy?</p>
+    <!-- SECCIÓN INICIAL -->
+    
+<div class="container">
+    <header class="row">
+            <div class="col-md-12 col-lg-6">
+            <hr class="opacity-100 d-md-none">
+            <img class="enunciado-imagen img-fluid mt-4" src="assets/img/imagen-principal.jpg" alt="">
+            </div>
+            <div class="col">
+            <h1 class="principal justify-content-lg-start mt-5">¿Qué preparamos hoy?</h1>
+            <hr class="opacity-100">
+            <p class="detalles m-3"></p>
+            <div class="d-flex justify-content-lg-start justify-content-center">
+            </div>
         </div>
     </header>
-
+</div>
+    
                     <!-- INICIO SECCION CARTAS -->
 <div class="bloque-separacion">
 
 </div>
-        <!-- TIPS DE COCINA-->
-    <section id="container1" class="/">
-        <hr class="card-border container">
+<!-- TIPS DE COCINA-->
+<section id="container1" class="/">
+    <hr class="card-border container">
     <h1 class="text-center color-tamano-h1 mt-3">Tips de cocina</h1>
-        <div class="row mt-5">
-            <div class="col-lg-4 col-12 d-flex justify-content-center mb-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/higiene.jpg" class="card-img-top" alt="...">
+    <div class="row mt-5">
+        <div class="col-lg-4 col-12 d-flex justify-content-center mb-5">
+            <div class="card bg-propio" style="width: 18rem;">
+                <img src="assets/img/higiene.jpg" class="card-img-top" alt="...">
                 <div class="card-color card-body">
                     <h4 class="card-title mt-1">Lava tus alimentos</h4>
                     <p class="card-text m-0">El lavado previo de tus alimentos no solo aporta higiene a tus comidas, sino que además optimiza tus tiempos de preparación.</p>
                 </div>
             </div>
         </div>
-        <!-- Fin carta 1.1 -->
-    
+    <!-- Fin carta 1.1 -->
+
         <div class="col-lg-4 col-12 d-flex justify-content-center mb-5">
-            <div class="card" style="width: 18rem;">
-                    <img src="assets/img/procesado.jpeg" class="card-img-top" alt="...">
+            <div class="card bg-propio" style="width: 18rem;">
+                <img src="assets/img/procesado.jpeg" class="card-img-top" alt="...">
                 <div class="card-color card-body">
                     <h4 class="card-title mt-1">Bases de guisos</h4>
                     <p class="card-text m-0">¿Eres de las personas que gusta comer guisos pero pierdes mucho tiempo picando vegetales?, Entonces este tip es para ti...</p>
                 </div>
             </div>
         </div>
-        <!-- Fin carta 1.2 -->
-    
+    <!-- Fin carta 1.2 -->
+
         <div class="col-sm-4 col-12 d-flex justify-content-center mb-5">
-            <div class="card" style="width: 18rem;">
-                    <img src="assets/img/Coloring Book Page.jpg" class="card-img-top" alt="...">
+            <div class="card bg-propio" style="width: 18rem;">
+                <img src="assets/img/Coloring Book Page.jpg" class="card-img-top" alt="...">
                 <div class="card-color card-body">
-                    <h5 class="card-title mt-1"> PLATEADA</h5>
+                    <h4 class="card-title mt-1"> PLATEADA</h4>
                     <p class="card-text m-0"> Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
                 </div>
             </div>
         </div>
-        </div>
-    </section>
+    </div>
+</section>
         <!-- Fin carta 1.3 -->
 
         <!-- TIPS DE AHORRO -->
-    <section id="container2">
-        <hr class="card-border container">
+<section id="container2">
+    <hr class="card-border container">
     <h1 class="text-center color-tamano-h1 mt-3">Tips de ahorro</h1>
-        <div class="row mt-5">
-            <div class="col-lg-4 col-12 d-flex justify-content-center mb-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/d20df587-f82b-47a2-8516-af73b711f5fc.jpg" class="card-img-top" alt="...">
+    <div class="row mt-5">
+        <div class="col-lg-4 col-12 d-flex justify-content-center mb-5">
+            <div class="card bg-propio" style="width: 18rem;">
+                <img src="assets/img/d20df587-f82b-47a2-8516-af73b711f5fc.jpg" class="card-img-top" alt="...">
                 <div class="card-color card-body">
-                    <h5 class="card-title mt-1">PANQUEQUES CON MANJAR Y CREMA</h5>
+                    <h4 class="card-title mt-1">PANQUEQUES CON MANJAR Y CREMA</h4>
                     <p class="card-text m-0"> Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
                 </div>
             </div>
         </div>
-        <!-- Fin carta 2.1 -->
-    
+    <!-- Fin carta 2.1 -->
+
         <div class="col-lg-4 col-12 d-flex justify-content-center mb-5">
-            <div class="card" style="width: 18rem;">
-                    <img src="assets/img/Hands Grabbing Framed Mini Art Print by Lemonnude.jpg" class="card-img-top" alt="...">
+            <div class="card bg-propio" style="width: 18rem;">
+                <img src="assets/img/Hands Grabbing Framed Mini Art Print by Lemonnude.jpg" class="card-img-top" alt="...">
                 <div class="card-color card-body">
-                    <h5 class="card-title mt-1"> TIRAMISÚ</h5>
+                    <h4 class="card-title mt-1"> TIRAMISÚ</h4>
                     <p class="card-text m-0"> Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
                 </div>
-                </div>
-        </div>
-        <!-- Fin carta 2.2 -->
-    
-            <div class="col-sm-4 col-12 d-flex justify-content-center mb-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/Line Art.jpg" class="card-img-top" alt="...">
-                    <div class="card-color card-body">
-                    <h5 class="card-title mt-1"> PLATEADA</h5>
-                    <p class="card-text m-0"> Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
-                    </div>
-                    </div>
             </div>
         </div>
-    </section>
+    <!-- Fin carta 2.2 -->
+
+        <div class="col-sm-4 col-12 d-flex justify-content-center mb-5">
+            <div class="card bg-propio" style="width: 18rem;">
+                <img src="assets/img/Line Art.jpg" class="card-img-top" alt="...">
+                <div class="card-color card-body">
+                    <h4 class="card-title mt-1"> PLATEADA</h4>
+                    <p class="card-text m-0"> Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- Fin carta 2.3 -->
 
         <!-- RECETAS RECOMENDADAS -->
-    <section id="container3">
-        <hr class="card-border container">
+<section id="container3">
+    <hr class="card-border container">
     <h1 class="text-center color-tamano-h1 mt-3">Recetas recomendadas</h1>
-        <div class="row mt-5">
-            <div class="col-lg-4 col-12 d-flex justify-content-center mb-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/Mano en la ilustración del universo _ Vector Premium.jpg" class="card-img-top" alt="...">
+    <div class="row mt-5">
+        <div class="col-lg-4 col-12 d-flex justify-content-center mb-5">
+            <div class="card bg-propio" style="width: 18rem;">
+                <img src="assets/img/Mano en la ilustración del universo _ Vector Premium.jpg" class="card-img-top" alt="...">
                 <div class="card-color card-body">
-                    <h5 class="card-title mt-1">PANQUEQUES CON MANJAR Y CREMA</h5>
+                    <h4 class="card-title mt-1">PANQUEQUES CON MANJAR Y CREMA</h4>
                     <p class="card-text m-0"> Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
                 </div>
             </div>
@@ -142,10 +152,10 @@
         <!-- Fin carta 3.1 -->
     
         <div class="col-lg-4 col-12 d-flex justify-content-center mb-5">
-            <div class="card" style="width: 18rem;">
+            <div class="card bg-propio" style="width: 18rem;">
                     <img src="assets/img/poeticamente flor (2).jpg" class="card-img-top" alt="...">
                 <div class="card-color card-body">
-                    <h5 class="card-title mt-1"> TIRAMISÚ</h5>
+                    <h4 class="card-title mt-1"> TIRAMISÚ</h4>
                     <p class="card-text m-0"> Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
                 </div>
                 </div>
@@ -153,16 +163,16 @@
         <!-- Fin carta 3.2 -->
 
         <div class="col-sm-4 col-12 d-flex justify-content-center mb-5">
-            <div class="card" style="width: 18rem;">
-                    <img src="assets/img/poeticamente flor (3).jpg" class="card-img-top" alt="...">
+            <div class="card bg-propio" style="width: 18rem;">
+                <img src="assets/img/poeticamente flor (3).jpg" class="card-img-top" alt="...">
                 <div class="card-color card-body">
-                    <h5 class="card-title mt-1"> PLATEADA</h5>
+                    <h4 class="card-title mt-1"> PLATEADA</h4>
                     <p class="card-text m-0"> Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
                 </div>
             </div>
         </div>
-        </div>
-    </section>
+    </div>
+</section>
         <!-- Fin carta 3.3 -->
 
                     <!-- FINAL SECCIÓN CARTAS -->
